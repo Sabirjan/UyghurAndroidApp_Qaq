@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:background="@drawable/btn_selector"
+                android:clickable="true"
+                android:onClick="btn_Click"
+                android:padding="15.0dip" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="64dip"
+                    android:layout_height="64dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/duanfa_icon" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:minWidth="80dip"
+                    android:singleLine="true"
+                    android:text="@string/btn_1"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:background="@drawable/btn_selector"
+                android:clickable="true"
+                android:onClick="btn_Click"
+                android:padding="15.0dip" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="64dip"
+                    android:layout_height="64dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/changfa_icon" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:lineSpacingExtra="4.0dip"
+                    android:minWidth="80dip"
+                    android:singleLine="true"
+                    android:text="@string/btn_2"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:background="@drawable/btn_selector"
+                android:clickable="true"
+                android:onClick="btn_Click"
+                android:padding="15.0dip" >
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="64dip"
+                    android:layout_height="64dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/fengkuang_icon" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_centerHorizontal="true"
+                       android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:lineSpacingExtra="4.0dip"
+                    android:minWidth="80dip"
+                    android:singleLine="true"
+                    android:text="@string/btn_3"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:background="@drawable/btn_selector"
+                android:clickable="true"
+                android:onClick="btn_Click"
+                android:padding="15.0dip" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="64dip"
+                    android:layout_height="64dip"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/zhongfa_icon" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:lineSpacingExtra="4.0dip"
+                    android:minWidth="80dip"
+                    android:singleLine="true"
+                    android:text="@string/btn_4"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_des"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:lineSpacingExtra="2.0dip"
+        android:text="@string/des_uy"
+        android:textColor="#66ffffff"
+
+        android:textSize="12sp" />
+
+</RelativeLayout>
